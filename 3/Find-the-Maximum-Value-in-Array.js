@@ -30,25 +30,13 @@ console.log(largest);
 9100
 
 
-// Method 2. Loop through the array manually
-const bills = [42, 57, 33, 68, 51];
-let largest1 = bills[0];
-
-for (let x of bills) {
-    if (x > largest1) {
-        largest1 = x;
-    }
-}
-console.log(largest1);
-68
-
-// Method 3. Sort the array and pick the last item
+// Method 2. Sort the array and pick the last item
 const marks = [72, 88, 91, 67];
 marks.sort((a, b) => a - b);
 console.log(marks[marks.length - 1]);
 91
 
-// Method 4. reduce()
+// Method 3. reduce()
 const sales = [1200, 1800, 1500, 2000];
 
 const largest2 = sales.reduce((a, b) => {
@@ -58,7 +46,7 @@ console.log(largest2);
 2000
 
 
-// Method 5. Using Math.max.apply
+// Method 4. Using Math.max.apply
 const heights = [160, 172, 181, 169];
 const largest3 = Math.max.apply(null, heights);
 console.log(largest3);
