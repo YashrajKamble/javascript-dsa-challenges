@@ -1,3 +1,7 @@
+// QUESTION 7 — Check if a String Is a Palindrome
+
+
+
 function isPalindrome(str) {
     let cleaned = "";
 
