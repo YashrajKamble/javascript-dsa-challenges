@@ -17,3 +17,4 @@ function findMissingLetter(str) {
 }
 
 console.log(findMissingLetter("abcef"))
+// d
